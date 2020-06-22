@@ -1,0 +1,2 @@
+﻿嚴重性	程式碼	說明	專案	檔案	行	隱藏項目狀態
+錯誤		承載檔案 'C:\Users\vulca\.nuget\packages\xam.plugin.iconize.fontawesome\1.0.10\lib\UAP10\Plugin.Iconize.FontAwesome.UWP\Assets\Fonts\iconize-fontawesome.ttf' 不存在。	LOBTask.UWP			

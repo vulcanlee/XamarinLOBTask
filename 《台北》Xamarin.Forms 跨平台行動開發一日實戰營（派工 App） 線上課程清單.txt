@@ -1,0 +1,33 @@
+﻿* 開發環境安裝、設定與準備工作
+  * Visual Studio 2017 之 Xamarin.Forms 開發環境的安裝與設定
+    https://youtu.be/MB7piez-oiI
+  * 安裝 Prism Template Pack 擴充功能
+    https://youtu.be/ULVO88WNL7I
+  * 如何安裝與使用 Xamarin.Forms 開發用程式碼片段
+    https://youtu.be/LNe9vPrTIRo
+  * 使用 GitHub 分享有問題的專案原始碼
+    https://youtu.be/sBwMACKmLJU
+  * XAML 基本特色與功能介紹
+    https://youtu.be/d5alszJqLfQ
+
+* 確認開發環境是否正常運作
+  * Android SDK 管理員更新到最新版本
+    https://youtu.be/_9xiFltBYDk
+  * VS for Android 模擬器是否正常運作
+    https://youtu.be/i_gVTeKfdwE
+  * 實體 Android 手機 啟用開發者模式
+    https://youtu.be/0kLL8OJPDPI
+  * 建立、建置、執行 Cross-Platform 專案
+    https://youtu.be/qDsAiQR7OUw
+  * 建立、建置、執行 Prism 專案
+    https://youtu.be/g_cVWAPmmpg
+  * 如何安裝與使用 Xamarin.Forms 開發用程式碼片段
+    https://youtu.be/LNe9vPrTIRo
+
+* iOS 開發上的補充說明資料
+  * Visual Studio進行iOS實體裝置除錯過程
+    https://youtu.be/laxGKS6uqic
+  * 使用 iPhone / iPad 實體機進行 Xamarin.Forms 應用程式除錯測試
+    https://mylabtw.blogspot.tw/2016/09/iphone-ipad-xamarinforms.html
+  * 產生派送憑證(憑證密鑰) (Distribution Certificate)
+    https://mylabtw.blogspot.tw/2016/09/xamarinforms-iosmac.html

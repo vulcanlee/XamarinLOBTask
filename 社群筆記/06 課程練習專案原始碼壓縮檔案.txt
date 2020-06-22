@@ -1,0 +1,5 @@
+﻿【06 課程練習專案原始碼壓縮檔案】
+
+本次課程的練習專案原始碼、圖片資源、後台 Web API專案原始碼、PostMan 匯出檔案、PropertyChanged 會用到的 XML檔案等等
+
+https://www.asuswebstorage.com/navigate/s/7A63CEF5660344A3A572340B296EB1D9Y

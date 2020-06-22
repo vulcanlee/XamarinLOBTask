@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:prism="clr-namespace:Prism.Mvvm;assembly=Prism.Forms"
+             prism:ViewModelLocator.AutowireViewModel="True"
+             x:Class="LOBTask.Views.SplashScreenPage"
+             BackgroundColor="#A6A6E8">
+
+    <Grid
+        >
+        <Image
+            Aspect="Fill">
+            <!--因為每個平台放置圖片的路徑不同，因此，使用 OnPlatform 來設定不同平台下的不同屬性值-->
+            <Image.Source>
+                <OnPlatform x:TypeArguments="ImageSource"
+                            iOS="Screen.png"
+                            Android="Screen.png"
+                            WinPhone="Assets/Screen.png"
+                            />
+            </Image.Source>
+        </Image>
+
+        <Label
+            HorizontalOptions="Center" VerticalOptions="End"
+            Margin="0,0,0,70"
+            Text="{Binding Loading}"
+            FontSize="24"
+            TextColor="LightPink"/>
+
+    </Grid>
+
+</ContentPage>

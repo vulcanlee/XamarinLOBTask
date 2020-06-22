@@ -1,0 +1,49 @@
+﻿【01 上課前準備工作】
+
+各位學員，請在上課前，準備好您電腦的 Xamarin.Forms 開發環境，並且是可以正常進行開發、建置、除錯。本課程將會使用 Visual Studio 2017 for Windows 進行教學與練習。
+
+最重要的是，您的 Android 模擬器或者 Android 實體手機，必須要在進行開發除錯過程中，必須要能夠連上 Internet 網路。
+
+請先觀看這些線上先修教學影片。
+
+【線上先修課程】
+
+Visual Studio 2017 for Xamarin 開發環境之安裝與設定說明 (2018 Q2 版本)
+http://mylabtw.blogspot.com/2018/06/Visual-Studio-2017-Xamarin-Forms-Prism-Installation.html
+
+Visual Studio 2017 之 Xamarin.Forms 開發環境的安裝與設定
+https://youtu.be/MB7piez-oiI
+安裝 Prism Template Pack 擴充功能
+https://youtu.be/ULVO88WNL7I
+如何安裝與使用 Xamarin.Forms 開發用程式碼片段
+https://youtu.be/LNe9vPrTIRo
+
+使用 GitHub 分享有問題的專案原始碼
+https://youtu.be/sBwMACKmLJU
+XAML 基本特色與功能介紹
+https://youtu.be/d5alszJqLfQ
+
+【確認開發環境是否正常運作】
+
+Android SDK 管理員更新到最新版本
+https://youtu.be/_9xiFltBYDk
+VS for Android 模擬器是否正常運作
+https://youtu.be/i_gVTeKfdwE
+實體 Android 手機 啟用開發者模式
+https://youtu.be/0kLL8OJPDPI
+建立、建置、執行 Cross-Platform 專案
+https://youtu.be/qDsAiQR7OUw
+建立、建置、執行 Prism 專案
+https://youtu.be/g_cVWAPmmpg
+
+【課程開發練習成果】
+
+對於使用 Android 裝置的學員，可以在此安裝練習成果 App
+https://play.google.com/store/apps/details?id=com.companyname.LOBTaskDemo
+另外，可以安裝這個 UWP 版本的 App 到 Windows 上
+https://www.microsoft.com/store/apps/9PNTPV8TJQKR
+
+
+
+
+若有遇到任何問題、疑問、困難，歡迎在社團上提問。

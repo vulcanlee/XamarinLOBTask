@@ -1,0 +1,17 @@
+﻿名稱名稱：派工與回報
+
+簡短說明:
+
+這是 Xamarin.Forms 跨平台行動開發一日實戰營 的實作練習最後成果
+
+完整說明：
+
+這是 Xamarin.Forms 跨平台行動開發一日實戰營 的實作練習最後成果
+
+可以使用帳號user1 / 密碼pw1 來進行讀取派工資料，並且回報該工作處理情況(帳號共用30 組，從user1~user30，每個帳號的密碼為pw1~pw30)
+
+想要測試 QR Code 打卡功能，可以使用這個網頁
+https://XamarinLOBTask.azurewebsites.net/DoTasks?account=user1
+將 account 的參數值，替換成為您登入的使用者帳號即可
+
+本教育訓練課程詳細說明，請參考： https://www.accupass.com/event/1712130740161551880346

@@ -1,0 +1,7 @@
+﻿【08 android-sdk-jars】
+
+C:\Users\%USERNAME%\AppData\Local\Xamarin\Xamarin.Android.Support.CustomTabs\23.3.0.0\embedded
+
+將這個壓縮檔案全部內容，解壓縮到 C:\Users\%USERNAME%\AppData\Local\Xamarin 目錄下
+https://drive.google.com/file/d/1bD0sBiWOuqDuvQBymNYjDW7QnwHeufwJ/view?usp=sharing
+

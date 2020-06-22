@@ -1,0 +1,613 @@
+{
+	"info": {
+		"name": "XamarinLOBTask",
+		"_postman_id": "63e35114-c4d6-06a8-789f-8a2da6d024a8",
+		"description": "(派工系統)",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Azure雲端",
+			"description": "",
+			"item": [
+				{
+					"name": "Azure雲端測試 Web API服務是否正常",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "ZUMO-API-VERSION",
+								"value": "2.0.0"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": "https://XamarinLOBTask.azurewebsites.net/api/values",
+						"description": "Azure雲端測試 Web API服務是否正常"
+					},
+					"response": []
+				},
+				{
+					"name": "Azure端使用者帳號與密碼驗證",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "ZUMO-API-VERSION",
+								"value": "2.0.0"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "https://XamarinLOBTask.azurewebsites.net/api/UserLogin?account=user1&password=pw1",
+							"protocol": "https",
+							"host": [
+								"XamarinLOBTask",
+								"azurewebsites",
+								"net"
+							],
+							"path": [
+								"api",
+								"UserLogin"
+							],
+							"query": [
+								{
+									"key": "account",
+									"value": "user1"
+								},
+								{
+									"key": "password",
+									"value": "pw1"
+								}
+							]
+						},
+						"description": "Azure端使用者帳號與密碼驗證"
+					},
+					"response": []
+				},
+				{
+					"name": "Azure端資料庫測試資料重新初始化",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "ZUMO-API-VERSION",
+								"value": "2.0.0"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": "https://XamarinLOBTask.azurewebsites.net/api/DBReset",
+						"description": "Azure端資料庫測試資料重新初始化"
+					},
+					"response": []
+				},
+				{
+					"name": "Azure端的今日工作初始化",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "ZUMO-API-VERSION",
+								"value": "2.0.0"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": "https://XamarinLOBTask.azurewebsites.net/api/TodayTask",
+						"description": null
+					},
+					"response": []
+				},
+				{
+					"name": "Azure端查詢指定Id的工作內容",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "ZUMO-API-VERSION",
+								"value": "2.0.0"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "https://XamarinLOBTask.azurewebsites.net/api/UserTasks/FilterById?id=6",
+							"protocol": "https",
+							"host": [
+								"XamarinLOBTask",
+								"azurewebsites",
+								"net"
+							],
+							"path": [
+								"api",
+								"UserTasks",
+								"FilterById"
+							],
+							"query": [
+								{
+									"key": "id",
+									"value": "6"
+								}
+							]
+						},
+						"description": null
+					},
+					"response": []
+				},
+				{
+					"name": "Azure端查詢使用者特定時間內的工作內容",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "ZUMO-API-VERSION",
+								"value": "2.0.0"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "https://XamarinLOBTask.azurewebsites.net/api/UserTasks/Filter?account=user1&lastDate=2017/04/15&startDate=2017/04/15",
+							"protocol": "https",
+							"host": [
+								"XamarinLOBTask",
+								"azurewebsites",
+								"net"
+							],
+							"path": [
+								"api",
+								"UserTasks",
+								"Filter"
+							],
+							"query": [
+								{
+									"key": "account",
+									"value": "user1"
+								},
+								{
+									"key": "lastDate",
+									"value": "2017/04/15"
+								},
+								{
+									"key": "startDate",
+									"value": "2017/04/15"
+								}
+							]
+						},
+						"description": null
+					},
+					"response": []
+				},
+				{
+					"name": "Azure尚未完成的工作",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "ZUMO-API-VERSION",
+								"value": "2.0.0"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "https://XamarinLOBTask.azurewebsites.net/api/UserTasks?account=user1",
+							"protocol": "https",
+							"host": [
+								"XamarinLOBTask",
+								"azurewebsites",
+								"net"
+							],
+							"path": [
+								"api",
+								"UserTasks"
+							],
+							"query": [
+								{
+									"key": "account",
+									"value": "user1"
+								}
+							]
+						},
+						"description": null
+					},
+					"response": []
+				},
+				{
+					"name": "模擬可掃描的 QRCode",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "https://XamarinLOBTask.azurewebsites.net/DoTasks?account=user1",
+							"protocol": "https",
+							"host": [
+								"XamarinLOBTask",
+								"azurewebsites",
+								"net"
+							],
+							"path": [
+								"DoTasks"
+							],
+							"query": [
+								{
+									"key": "account",
+									"value": "user1"
+								}
+							]
+						},
+						"description": "請直接使用瀏覽器打開該網址"
+					},
+					"response": []
+				},
+				{
+					"name": "Azure端更新工作紀錄內容",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "ZUMO-API-VERSION",
+								"value": "2.0.0"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\"Id\":206,\"Account\":\"user1\",\"TaskDateTime\":\"2017-04-15T00:00:00Z\",\"Status\":0,\"Title\":\"11111請前往地點 4 進行簽到與調查作業環境\",\"Description\":\"請到指定地點掃描 QR Code，並且填寫當時工作環境數據\",\"CheckinId\":\"HLRFPAMRQZYKOITFHINAXUIZKRABPV\",\"Checkin_Latitude\":47.640068,\"Checkin_Longitude\":-122.129858,\"CheckinDatetime\":\"1900-01-01T00:00:00Z\",\"Condition1_Ttile\":\"請讀取儀表1的數據\",\"Condition1_Result\":\"\",\"Condition2_Ttile\":\"請讀取儀表2的數據\",\"Condition2_Result\":\"\",\"Condition3_Ttile\":\"請讀取儀表3的數據\",\"Condition3_Result\":\"\",\"PhotoURL\":\"\",\"Reported\":false,\"ReportedDatetime\":\"1900-01-01T00:00:00Z\"}"
+						},
+						"url": "http://XamarinLOBTask.azurewebsites.net/api/UserTasks",
+						"description": null
+					},
+					"response": []
+				},
+				{
+					"name": "Azure檔案上傳",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "ZUMO-API-VERSION",
+								"value": "2.0.0"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"disabled": true
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "file",
+									"description": "",
+									"type": "file",
+									"src": "readme.txt"
+								}
+							]
+						},
+						"url": "http://XamarinLOBTask.azurewebsites.net/api/UploadImage",
+						"description": null
+					},
+					"response": []
+				},
+				{
+					"name": "預設 Todo 資料表的查詢",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "ZUMO-API-VERSION",
+								"value": "2.0.0"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": "http://XamarinLOBTask.azurewebsites.net/tables/todoitem",
+						"description": "預設 Todo 資料表的查詢"
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "本機",
+			"description": "",
+			"item": [
+				{
+					"name": "本地端測試 Web API服務是否正常",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "ZUMO-API-VERSION",
+								"value": "2.0.0"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": "http://localhost:51029/api/values",
+						"description": "本地端測試 Web API服務是否正常"
+					},
+					"response": []
+				},
+				{
+					"name": "本地端使用者帳號與密碼驗證",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "ZUMO-API-VERSION",
+								"value": "2.0.0"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "http://localhost:51029/api/UserLogin?account=user1&password=pw1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "51029",
+							"path": [
+								"api",
+								"UserLogin"
+							],
+							"query": [
+								{
+									"key": "account",
+									"value": "user1"
+								},
+								{
+									"key": "password",
+									"value": "pw1"
+								}
+							]
+						},
+						"description": "使用者帳號與密碼驗證"
+					},
+					"response": []
+				},
+				{
+					"name": "本地端資料庫測試資料重新初始化",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "ZUMO-API-VERSION",
+								"value": "2.0.0"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": "http://localhost:51029/api/DBReset",
+						"description": "本地端資料庫測試資料重新初始化"
+					},
+					"response": []
+				},
+				{
+					"name": "本地端的今日工作初始化",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "ZUMO-API-VERSION",
+								"value": "2.0.0"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": "http://localhost:51029/api/TodayTask",
+						"description": null
+					},
+					"response": []
+				},
+				{
+					"name": "本地端查詢使用者特定時間內的工作內容",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "ZUMO-API-VERSION",
+								"value": "2.0.0"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "http://localhost:51029/api/UserTasks/Filter?account=user1&lastDate=2017/04/15&startDate=2017/04/15",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "51029",
+							"path": [
+								"api",
+								"UserTasks",
+								"Filter"
+							],
+							"query": [
+								{
+									"key": "account",
+									"value": "user1"
+								},
+								{
+									"key": "lastDate",
+									"value": "2017/04/15"
+								},
+								{
+									"key": "startDate",
+									"value": "2017/04/15"
+								}
+							]
+						},
+						"description": null
+					},
+					"response": []
+				},
+				{
+					"name": "本地端查詢指定Id的工作內容",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "ZUMO-API-VERSION",
+								"value": "2.0.0"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "http://localhost:51029/api/UserTasks/FilterById?id=206",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "51029",
+							"path": [
+								"api",
+								"UserTasks",
+								"FilterById"
+							],
+							"query": [
+								{
+									"key": "id",
+									"value": "206"
+								}
+							]
+						},
+						"description": null
+					},
+					"response": []
+				},
+				{
+					"name": "本地端尚未完成的工作",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "ZUMO-API-VERSION",
+								"value": "2.0.0"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "http://localhost:51029/api/UserTasks?account=user1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "51029",
+							"path": [
+								"api",
+								"UserTasks"
+							],
+							"query": [
+								{
+									"key": "account",
+									"value": "user1"
+								}
+							]
+						},
+						"description": null
+					},
+					"response": []
+				},
+				{
+					"name": "本地端更新工作紀錄內容",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "ZUMO-API-VERSION",
+								"value": "2.0.0"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\"Id\":206,\"Account\":\"user1\",\"TaskDateTime\":\"2017-04-15T00:00:00Z\",\"Status\":0,\"Title\":\"11111請前往地點 4 進行簽到與調查作業環境\",\"Description\":\"請到指定地點掃描 QR Code，並且填寫當時工作環境數據\",\"CheckinId\":\"HLRFPAMRQZYKOITFHINAXUIZKRABPV\",\"Checkin_Latitude\":47.640068,\"Checkin_Longitude\":-122.129858,\"CheckinDatetime\":\"1900-01-01T00:00:00Z\",\"Condition1_Ttile\":\"請讀取儀表1的數據\",\"Condition1_Result\":\"\",\"Condition2_Ttile\":\"請讀取儀表2的數據\",\"Condition2_Result\":\"\",\"Condition3_Ttile\":\"請讀取儀表3的數據\",\"Condition3_Result\":\"\",\"PhotoURL\":\"\",\"Reported\":false,\"ReportedDatetime\":\"1900-01-01T00:00:00Z\"}"
+						},
+						"url": "http://localhost:51029/api/UserTasks",
+						"description": null
+					},
+					"response": []
+				},
+				{
+					"name": "本地端檔案上傳",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "ZUMO-API-VERSION",
+								"value": "2.0.0"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "file",
+									"value": "",
+									"description": "",
+									"type": "text"
+								}
+							]
+						},
+						"url": "http://XamarinLOBTask.azurewebsites.net/api/UploadImage",
+						"description": null
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}

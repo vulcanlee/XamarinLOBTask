@@ -1,0 +1,6 @@
+﻿【03 進行 Android 版 Visual Studio 模擬器的疑難排解】
+
+若各位學員在進行操作上，遇到有關 Visual Studio for Android 模擬器上的相關問題，例如：無法啟動、無法除錯、無法佈署、無法連線等等問題，可以參考底下連結，幾乎 95% 以上各位可能遇到的問題，都可以在這個網頁中找到解答。
+
+進行 Android 版 Visual Studio 模擬器的疑難排解
+https://docs.microsoft.com/zh-tw/visualstudio/cross-platform/troubleshooting-the-visual-studio-emulator-for-android#ADB
